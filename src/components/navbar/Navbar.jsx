@@ -5,7 +5,7 @@ import digitool_logo from "../../assets/digitoolsdigitoollogo.png";
 
 const Navbar = () => {
   return (
-    <div className="md:mt-7 mt-5">
+    <div className="md:mt-7 mt-5 mb-9">
       <nav className="flex md:justify-around items-center md:flex-row flex-col ">
         {/* <p className="">Digitools</p> */}
         <img className="h-8 md:mb-0 mb-3" src={digitool_logo} alt="" />
