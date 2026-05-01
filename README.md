@@ -1,16 +1,68 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools Platform is a simple responsive React app built with Vite. It is a digital tools landing page where users can browse products, add items to a cart, see the total price, and explore pricing and workflow sections.
 
-Currently, two official plugins are available:
+## About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was made to present premium digital tools in a clean and modern way. The design focuses on a product marketplace style layout with a hero section, product catalog, pricing cards, and a call to action for users.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive landing page design
+- Hero section with CTA buttons
+- Product catalog loaded from `public/productData.json`
+- Products and cart toggle view
+- Cart count shown in the navbar
+- Add and remove selected items
+- Toast notification when removing an item from the cart
+- Total cart amount calculation
+- Pricing plans section
+- 3-step getting started section
+- Workflow call-to-action section
+- Footer with social links and site information
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- Lucide React
+- Font Awesome
+
+## Project Structure
+
+- `src/App.jsx` - main page layout
+- `src/components/banner` - hero section
+- `src/components/products` - product cards and cart logic
+- `src/components/pricingCard` - pricing section
+- `src/components/steps` - getting started section
+- `src/components/workflow` - call-to-action section
+- `src/components/footer` - footer section
+
+## Run Locally
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build the project:
+
+   ```bash
+   npm run build
+   ```
+
+## Short Summary
+
+This project is a frontend demo for a digital tools platform. It shows how users can explore products, manage a cart, and view pricing in one simple interface.
+
+Live link -> https://smart-tools-digi.netlify.app/
