@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes with AI-powered suggestions and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "highlight",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "https://api.iconify.design/lucide/file-text.svg"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Launch a personal portfolio with pre-built responsive templates.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": [
+      "Responsive design",
+      "Custom domain support",
+      "SEO optimization",
+      "Fast loading"
+    ],
+    "icon": "https://api.iconify.design/lucide/globe.svg"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker Pro",
+    "description": "Track your job applications, interviews, and offers in one place.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "info",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Notes & feedback",
+      "Analytics dashboard"
+    ],
+    "icon": "https://api.iconify.design/lucide/clipboard-list.svg"
+  },
+  {
+    "id": 4,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate tailored cover letters instantly using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "highlight",
+    "features": [
+      "AI-generated content",
+      "Multiple formats",
+      "Quick editing",
+      "Export options"
+    ],
+    "icon": "https://api.iconify.design/lucide/pen-tool.svg"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Toolkit",
+    "description": "Practice interviews with real-world questions and AI feedback.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Common questions bank",
+      "Performance tracking"
+    ],
+    "icon": "https://api.iconify.design/lucide/mic.svg"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Profile Booster",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "info",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Headline generator",
+      "Engagement tips"
+    ],
+    "icon": "https://api.iconify.design/lucide/linkedin.svg"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start freelancing and get clients.",
+    "price": 59.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "highlight",
+    "features": [
+      "Proposal templates",
+      "Client scripts",
+      "Portfolio examples",
+      "Pricing guides"
+    ],
+    "icon": "https://api.iconify.design/lucide/briefcase.svg"
+  },
+  {
+    "id": 8,
+    "name": "Career Growth Subscription",
+    "description": "Access premium tools and resources to accelerate your career.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": [
+      "All-in-one access",
+      "Exclusive resources",
+      "Priority support",
+      "Regular updates"
+    ],
+    "icon": "https://api.iconify.design/lucide/trending-up.svg"
+  }
+]
