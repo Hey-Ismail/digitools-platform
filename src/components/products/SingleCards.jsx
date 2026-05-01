@@ -2,6 +2,7 @@
 
 import { Check } from "lucide-react";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const SingleCards = ({ dAta, setSelectedItems }) => {
   const [isSelected, setisSelected] = useState(false);
@@ -17,6 +18,7 @@ const SingleCards = ({ dAta, setSelectedItems }) => {
 
       return [...prevItems, dAta];
     });
+    toast.success(`You have added item to the cart`);
   };
   return (
     <div className="border border-[#f2f2f2FF] rounded-2xl p-6">

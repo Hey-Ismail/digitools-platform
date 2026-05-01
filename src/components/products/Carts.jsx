@@ -1,5 +1,6 @@
 // import React from 'react';
 
+import { Slide, toast } from "react-toastify";
 import SelectedCarts from "./SelectedCarts";
 
 const Carts = ({ selectedItems, setSelectedItems }) => {
@@ -9,6 +10,17 @@ const Carts = ({ selectedItems, setSelectedItems }) => {
     setSelectedItems((prevItems) =>
       prevItems.filter((item) => item.id !== itemId),
     );
+    toast("You have removed the item", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Slide,
+    });
   };
 
   return (
