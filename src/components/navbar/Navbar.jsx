@@ -3,9 +3,9 @@
 import { ShoppingCartIcon } from "lucide-react";
 import digitool_logo from "../../assets/digitoolsdigitoollogo.png";
 
-const Navbar = () => {
+const Navbar = ({ cardCount }) => {
   return (
-    <div className="md:mt-7 mt-5 mb-9">
+    <div className="mb-9 mt-5 md:mt-7">
       <nav className="flex md:justify-around items-center md:flex-row flex-col ">
         {/* <p className="">Digitools</p> */}
         <img className="h-8 md:mb-0 mb-3" src={digitool_logo} alt="" />
@@ -19,7 +19,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center gap-4">
-          <ShoppingCartIcon />
+          <div className="relative flex h-10 w-10 items-center justify-center rounded-full">
+            <ShoppingCartIcon className="h-5 w-5" />
+            {cardCount > 0 ? (
+              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-[#9514FA] px-1 text-[10px] font-semibold text-white">
+                {cardCount}
+              </span>
+            ) : null}
+          </div>
           <div className="p-0.5 text-[#9514FA] bg-linear-to-b from-[#4F39F6] to-[#9514FA] rounded-md">
             <button className="rounded-md px-5 py-1 bg-white">login</button>
           </div>
